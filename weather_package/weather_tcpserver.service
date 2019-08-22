@@ -1,0 +1,10 @@
+[Unit]
+Description=tcp server
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/weather_tcpserver.py
+ExecStop=/usr/bin/weather_tcpserver.py
+
+[Install]
+WantedBy=default.target
