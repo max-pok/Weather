@@ -1,60 +1,50 @@
----------------------
--------READ-ME-------
----------------------
+# Weather service for linux
 
-Authors:
+## Authors:
 --------
-Maxim Pokidaylo
-Adir Atia
-Vitaly Nechayuk
+* Maxim Pokidaylo
+* Adir Atia
+* Vitaly Nechayuk
 
-Description:
-------------
+## Description:
 Weather TCP Server + Client - Detailed weather around the world.
 The server can be used at any time through the bash as long as it runs.
 Gives detailed and updated weather information according to the entered location.
 
 Version: 1.0
 
-System requirements:
---------------------
- - Internet connection
- - Linux/Unix-based operation system
- - Python package installed (version 2.7.1 optimal)
+## System requirements
+ * Internet connection
+ * Linux/Unix-based operation system
+ * Python package installed (version 2.7.1 optimal)
 
-Installation:
--------------
+## Installation
 1. Put the following files in your root directory (HOME):
-   - Makefile
-   - t.py
-   - weather_tcpserver.py
-   - weather
-   - service.service
-2. Enter the command <$ make install> in the bash (root).
+   * `Makefile`
+   * `t.py`
+   * `weather_tcpserver.py`
+   * `weather`
+   * `service.service`
+2. Enter the command `make install` in the bash (root).
 
-Activation & Use:
------------------
-1. Enter the command <$ make run> in the bash (root).
-2. Enter the command <$ ./weather + [LOCATION]> in format of [City, CPA (optional)].
-   Examples: <$ ./weather Houston, US>
-             <$ ./weather Tel Aviv>
-             <$ ./weather washington>
+## Activation & Use
+1. Enter the command `make run` in the bash (root).
+2. Enter the command `./weather + [LOCATION]` in format of [City, CPA (optional)].
+   Examples: `./weather Houston, US`
+             `./weather Tel Aviv`
+             `./weather washington`
 
-IMPORTANT: 
-- The location must be entered according to the required format and
-with legit city name and CPA. Otherwise exception will be thrown.
-- CPA is optional, though recommended (due to similar city names in different 
-countries).
-- If the location is not legit, a default location will be activated instead.
-- If the location is not entered, a default location will be activated instead.
+##### IMPORTANT: 
+* The location must be entered according to the required format and with legit city name and CPA. Otherwise exception will be thrown.
+* CPA is optional, though recommended (due to similar city names in different countries).
+* If the location is not legit, a default location will be activated instead.
+* If the location is not entered, a default location will be activated instead.
   (Default location: Beer-Sheva, IL)
   
-Uninstall:
-----------
-Enter the command <$ make clean> in the bash (root).
+## Uninstall
+Enter the command `make clean` in the bash (root).
 
-CPA - Country Postal Abbreviations:
------------------------------------
+#### CPA - Country Postal Abbreviations
 AF = Afghanistan
 AL = Albania
 DZ = Algeria
