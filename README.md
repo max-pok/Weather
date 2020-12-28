@@ -1,7 +1,6 @@
 # Weather service for linux
 
 ## Authors:
---------
 * Maxim Pokidaylo
 * Adir Atia
 * Vitaly Nechayuk
@@ -34,7 +33,7 @@ Version: 1.0
              `./weather Tel Aviv`
              `./weather washington`
 
-##### IMPORTANT: 
+##### IMPORTANT
 * The location must be entered according to the required format and with legit city name and CPA. Otherwise exception will be thrown.
 * CPA is optional, though recommended (due to similar city names in different countries).
 * If the location is not legit, a default location will be activated instead.
