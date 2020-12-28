@@ -6,9 +6,9 @@
 * Vitaly Nechayuk
 
 ## Description:
-Weather TCP Server + Client - Detailed weather around the world.
-The server can be used at any time through the bash as long as it runs.
-Gives detailed and updated weather information according to the entered location.
+Weather TCP Server + Client - Detailed weather around the world.\
+The server can be used at any time through the bash as long as it runs.\
+Gives detailed and updated weather information according to the entered location.\
 
 Version: 1.0
 
@@ -28,7 +28,7 @@ Version: 1.0
 
 ## Activation & Use
 1. Enter the command `make run` in the bash (root).
-2. Enter the command `./weather + [LOCATION]` in format of [City, CPA (optional)].
+2. Enter the command `./weather + [LOCATION]` in format of [City, CPA (optional)].\
    Examples: `./weather Houston, US`
              `./weather Tel Aviv`
              `./weather washington`
@@ -37,7 +37,7 @@ Version: 1.0
 * The location must be entered according to the required format and with legit city name and CPA. Otherwise exception will be thrown.
 * CPA is optional, though recommended (due to similar city names in different countries).
 * If the location is not legit, a default location will be activated instead.
-* If the location is not entered, a default location will be activated instead.
+* If the location is not entered, a default location will be activated instead.\
   (Default location: Beer-Sheva, IL)
   
 ## Uninstall
