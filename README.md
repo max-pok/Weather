@@ -8,7 +8,7 @@
 ## Description:
 Weather TCP Server + Client - Detailed weather around the world.\
 The server can be used at any time through the bash as long as it runs.\
-Gives detailed and updated weather information according to the entered location.\
+Gives detailed and updated weather information according to the entered location.
 
 Version: 1.0
 
